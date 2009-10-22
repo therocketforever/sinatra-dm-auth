@@ -8,9 +8,10 @@ Gem::Specification.new do |s|
   s.date = %q{2009-10-22}
   s.description = %q{sinatra-dm-auth is an extension for Sinatra to add simple user authorization}
   s.email = %q{aka.vince@gmail.com}
-  s.extra_rdoc_files = ["README", "LICENSE"]
-  s.files = %w(LICENSE README Rakefile) + Dir.glob("{lib}/**/*")
+  s.extra_rdoc_files = ["README.md", "LICENSE"]
+  s.files = %w(LICENSE README.md Rakefile) + Dir.glob("{lib}/**/*")
   s.has_rdoc = true
+  s.homepage = %q{http://github.com/daddz/sinatra-dm-auth}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.0}
   s.summary = %q{User authorization extension for Sinatra}
